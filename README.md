@@ -38,12 +38,12 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
 
 ## Solução
-Na inclusão de placas (veículo), adicionei uma estrutura de repetição (while) para que o usuário possa informar várias placas e só depois voltar ao Menu Principal, também foi feita uma validação na lista de veículos para que o usuário não cadastre uma mesma placa e seja informado que a placa já foi cadastrada, caso contrário, o ususário recebe uma mensagem que o cadastro foi efetuado com sucesso.
+Na inclusão de placas (veículo), adicionei uma estrutura de repetição (while) para que o usuário possa informar várias placas e só depois voltar ao Menu Principal, também foi feita uma validação na lista de veículos para que o usuário não cadastre uma mesma placa e seja informado que a placa já foi cadastrada, caso contrário, o usuário recebe uma mensagem que o cadastro foi efetuado com sucesso.
 
 No método **RemoverVeiculo**, foi adicionado um método para efetuar o calculo de permanência e retornar o valor usando um "*if ternário*". O valor sofreu uma mudança referente a proposta inicial, agora a forma de calculo retornado é:
 
 valorTotal = precoInicial + ((precoPorHora - 1) * horas)
 
-Ou seja, o precoInicial dá direito ao veículo ficar estacionado na primeira hora inicial pagando apenas o valor "*precoInicial*", e depois será acrescido o valorPorHora para acada hora adicional.
+Ou seja, o precoInicial dá direito ao veículo ficar estacionado na primeira hora inicial pagando apenas o valor "*precoInicial*", e depois será acrescido o valorPorHora para cada hora adicional.
 
 No método **ListarVeiculos**, foi usado uma estrutura de repetição "*foreach*" para percorrer todos os itens da lista e também foi usada uma variável para contar e informar quantos veículos tem estacionados.
