@@ -46,4 +46,4 @@ valorTotal = precoInicial + ((precoPorHora - 1) * horas)
 
 Ou seja, o precoInicial dá direito ao veículo ficar estacionado na primeira hora inicial pagando apenas o valor "*precoInicial*", e depois será acrescido o valorPorHora para acada hora adicional.
 
-No método **ListarVeiculos**, foi usado uma estrutura de repetição "*foreach*" para pecorrer todos os itens da lista e também foi usada uma variável para contar e informar quantos veículos tem estacionados.
+No método **ListarVeiculos**, foi usado uma estrutura de repetição "*foreach*" para percorrer todos os itens da lista e também foi usada uma variável para contar e informar quantos veículos tem estacionados.
