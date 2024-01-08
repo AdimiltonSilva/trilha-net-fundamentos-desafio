@@ -34,5 +34,12 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 4. Encerrar
 
 
-## Solução
+## Solução proposta
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Solução
+Na inclusão de placas (veículo), adicionei uma estrutura de repetição (while) para que o usuário possa informar várias placas e só depois voltar ao Menu Principal, também foi feita uma validação na lista de veículos para que o usuário não cadastre uma mesma placa e seja informado que a placa já foi cadastrada, caso contrário, o ususário recebe uma mensagem que o cadastro foi efetuado com sucesso.
+No método **RemoverVeiculo**, na formula de calculo foi adicionado um método para efetuar o calculo de permancia e retorna o valor. O valor sofreu uma mudança referente a proposta inicial, agora a forma de calculo retornado é:
+valorTotal = precoInicial + ((precoPorHora - 1) * horas)
+Ou seja, o precoInicial dá direito ao veículo a fica estacionado na primeira hora inicial, e depois será acrescido o valorPorHora para acada hora adicional.
+
